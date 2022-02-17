@@ -8,7 +8,7 @@ import javax.persistence.Id
 class Book(
 
     @Id @GeneratedValue
-    val id: Long,
+    val id: Long? = null,
 
     val name: String
 )
